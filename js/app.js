@@ -48,7 +48,8 @@ Enemy.prototype.update = function(dt) {
  level++;
 this.speed=100+Math.floor((Math.random()*200)+30);
 
-}};
+}
+};
 // Draw the enemy on the screen, required method for game
 Enemy.prototype.render = function() {
     ctx.drawImage(Resources.get(this.sprite), this.x, this.y);
