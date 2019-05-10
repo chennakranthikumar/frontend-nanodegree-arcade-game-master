@@ -44,11 +44,11 @@ This repository is the starter code for _all_ Udacity students. Therefore, we mo
  3. if the player had a collision with any of the bug then the player will loss his life and his position to be replaced to initial position and   after lose of  3 lives the page will reload after showing your score.
  4.  if the player cross the junction and reach the other side the score will increment and the player will go back  to initial position.
 
-#Runnung the code
+# Runnung the code
 1. After the project code Clone we should run the html page in the browser.
 2. If the player get to blue zone at each time the player gets the point.
 3. The player loss a life after each collision.
 4. if the player lost 3 lives the page will refresh showing your score.
 
-#conclusion
+# Conclusion
   I learnt the concept of object oriented java script and implementation of the concepts by completing the Arcade game project.
