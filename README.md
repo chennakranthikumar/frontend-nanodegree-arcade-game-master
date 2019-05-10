@@ -21,7 +21,7 @@ This repository is the starter code for _all_ Udacity students. Therefore, we mo
 !> in index.html file we must add meta query tag
 2> app.js file we must add player functions and enemy functions and also enemy and player objects
 
-# WORKS Contributed
+# WORKS CONTRIBUTED
 1. The meta tag is added to the html page
 2. The player and  enemies are pulled up in a specific coordinates .
 3. the collision condition is added .
