@@ -25,7 +25,7 @@ This repository is the starter code for _all_ Udacity students. Therefore, we mo
  To learn about object oriented java script and implement them in the arcade  Game project.
 
 # WORKS FLOW
-===
+
 1. After the Clone of the project from github we have to run the html file in console.
 2. the errors are resolved to get canvas in the browser .
 3. The player and  enemies characters are created in app.js file.
@@ -52,4 +52,3 @@ This repository is the starter code for _all_ Udacity students. Therefore, we mo
 
 #conclusion
   I learnt the concept of object oriented java script and implementation of the concepts by completing the Arcade game project.
-  
