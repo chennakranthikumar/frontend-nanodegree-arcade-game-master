@@ -193,7 +193,7 @@ if(ll==-1)
         'images/water-block.png',
         'images/grass-block.png',
         'images/enemy-bug.png',
-        'images/char-princess-girl.png'
+        'images/char-boy.png'
     ]);
     Resources.onReady(init);
 

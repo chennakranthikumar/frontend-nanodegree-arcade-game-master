@@ -57,24 +57,21 @@ Enemy.prototype.render = function() {
 var Player = function(x,y){
 this.x=x;
 this.y=y;
-  this.sprite='images/char-princess-girl.png';
+  this.sprite='images/char-boy.png';
 };
-
 
 //update functiom for Player
 var count=0;
-
 Player.prototype.update = function(dt) {
-if(player.y <= -90){
 
+if(this.y < 0){
 
-
-  count++;
-  player.x=200;
-  player.y=400;
-
+setTimeout(()=> {
+  this.x=200;
+  this.y=400;
+ count++;
+}, 10);
 }
-
 
 };
 
@@ -90,19 +87,20 @@ Player.prototype.render = function() {
 // Place the player object in a variable called player
 var player=new Player(200,400);
 player.handleInput=function(a) {
-if(a=='left' && this.x>100){
+if(a=='left' && this.x>0){
   this.x-=100;
 }
 else if(a=='right'&& this.x<385){
   this.x+=101;
 }
-else if(a=='up'&& this.y>-100){
-  this.y-=85;
+else if(a=='up'&& this.y>0){
+  this.y-=83;
 }
 else if(a=='down'&& this.y<400) {
-  this.y+=85;
+  this.y+=83;
 }
 }
+
 
 
 

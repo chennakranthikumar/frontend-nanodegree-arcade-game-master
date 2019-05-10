@@ -22,9 +22,19 @@ This repository is the starter code for _all_ Udacity students. Therefore, we mo
 2> app.js file we must add player functions and enemy functions and also enemy and player objects
 
 # WORKS CONTRIBUTED
-1. The meta tag is added to the html page
-2. The player and  enemies are pulled up in a specific coordinates .
+===
+1. the canvas 
+
+1. The player and  enemies are spanned  in a specific coordinates .
 3. the collision condition is added .
 4. the player will not move out of the playground.
 5. Player will span automatically after gaining a point in a specific location in the playground.
 6. the lives is added to the game, if the player is out of lives then the page will reload;
+
+## Instructions to play the game
+
+ 1. The user is provided with the player in which player has to pass through the junction  of bugs passing by.
+ 2. the player can move within the playground.
+ 3. if the player had a collision with any of the bug then the player will loss his life and his position to be replaced to initial position and   after lose of  3 lives the page will reload after showing your score.
+ 4.  if the player cross the junction and reach the other side the score will increment and the player will go back  to initial position.
+ 5.
