@@ -21,9 +21,11 @@ This repository is the starter code for _all_ Udacity students. Therefore, we mo
 !> in index.html file we must add meta query tag
 2> app.js file we must add player functions and enemy functions and also enemy and player objects
 
+# Aim of the Project
+ 
 # WORKS CONTRIBUTED
 ===
-1. the canvas 
+1. the canvas
 
 1. The player and  enemies are spanned  in a specific coordinates .
 3. the collision condition is added .
